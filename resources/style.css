@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  border: 0;
+}
+
 /* Header and Nav */
 
 header {
@@ -45,7 +50,6 @@ nav span{
 /* End of Header & Nav */
 
 div {
-  border: 1px solid black;
   display: block;
 }
 
@@ -61,6 +65,7 @@ div {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+  align-items: center;
 }
 
 .columnmedium {
@@ -183,8 +188,14 @@ footer .title{
   padding-right: 25px;
 }
 
+footer .info{
+  color: black;
+  display: block;
+}
+
 footer nav {
   display: inline-block;
+  padding-left: 25px;
 }
 
 nav span {
